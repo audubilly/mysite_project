@@ -16,3 +16,5 @@ def index(request):
     }
     # print(questions[0].choice_set.all())
     return render(request, "polls/index.html", context)
+
+
